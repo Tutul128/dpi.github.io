@@ -1,0 +1,549 @@
+/* This is responsive CSS file for the index and linked another files of this website */
+
+/* 
+Programer: MD Shariful Islam Tutul ,
+Contact: tutulvpn@gmail.com
+*/
+
+
+
+/* for heading section*/
+
+@media (min-width: 961px) and (max-width: 1280px){
+	/* this section is for minimum width of the display 961 px and max width is 1280px of the display of device */
+	
+	#menu-logo .menu-logo-wrapper{
+		width: 95%;
+	}
+
+	.left-menu ul li{
+		margin-right: 5px;
+	}
+
+	.left-menu ul li a{
+		font-size: 14px;
+		padding: 10.5px 2px;
+	}
+
+	.right-menu ul li{
+		margin-left: 15px;
+	}
+
+	.right-menu ul li a{
+		font-size: 14px;
+		padding: 10.5px 2px;
+	}
+
+
+}
+
+
+
+
+
+
+@media (min-width: 900px) and (max-width: 960px) {
+	/* this section is for minimum width of the display 900 px and max width is 960px of the display of device */
+	
+	#menu-logo .menu-logo-wrapper{
+		width: 95%;
+	}
+
+	.left-menu ul li{
+		margin-right: 5px;
+	}
+
+	.left-menu ul li a{
+		font-size: 12px;
+		padding: 12px 2px;
+	}
+
+	.right-menu ul li{
+		margin-left: 15px;
+	}
+
+	.right-menu ul li a{
+		font-size: 12px;
+		padding: 12px 2px;
+	}
+
+
+
+}
+
+@media (min-width: 320px) and (max-width:640px){
+	/* this section is for minimum width of the display 360 px and max width is 640px of the display of device */
+	
+	.menu-mobile{
+		display: block;
+	}
+
+	#menu-logo{
+		height: 42px;
+	}
+
+	#header h2{
+		font-size: 18px;
+	}
+
+	.menu-logo-wrapper .left-menu{
+		display: none;
+	}
+
+	.menu-logo-wrapper .right-menu{
+		display: none;
+	}
+
+	.logo{
+		height: 70px;
+		width: 70px;
+	}
+
+	.logo img{
+		height: 70px;
+		width: 70px;
+	}
+
+
+}
+
+
+
+
+
+
+
+/* Now content section's responsice css */
+
+/* Index.html page */
+
+@media (min-width: 320px) and (max-width: 640px){
+	
+
+
+	#slider{
+		margin-top: 97px;
+	}
+	
+	#main-content{
+		width: 100%;
+		height: 100%;
+	}
+
+	.main-content-wrapper{
+		width: 100%;
+	}
+
+	.left-content {
+
+    	width: 100%;
+    	float: none;
+    	margin-right: 0px;
+	}
+
+	.heading-left-content h2{
+		font-size: 20px;
+		text-align: left;
+		padding: 10px 15px;
+		width: 80%;
+	}
+
+	.left-content-list li{
+		padding-left: 15px;
+		padding-right: 0px;
+	}
+
+	.left-content-list li a{
+		padding: 15px 0px;
+	}
+
+	.right-content{
+		width: 100%;
+		float: none;
+		padding-left: 0px;
+		margin-top: 20px;
+	}
+
+	.heading-right-content h2{
+		width: 100%;
+		padding: 10px 0px;
+		font-size: 17px;
+		text-align: center;
+	}
+
+	.notice-right-content{
+		width: 100%;
+		float: none;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #000;
+	}
+
+	.news-right-content {
+
+    width: 100%;
+    float: none;
+    margin-left: 0;
+
+	}
+
+	.heading-n-r-c h2{
+		width: 80%;
+		padding: 15px;
+	}
+
+	.list-n-r-c ul li a{
+		padding-left: 15px;
+	}
+
+	.view-more-n-r-c{
+		margin-left: 15px;
+	}
+
+	.heading-nw-r-c h2{
+		padding: 15px;
+		width: 80%;
+	}
+
+	.list-nw-r-c ul li a{
+		padding-left: 15px;
+	}
+
+	.list-nw-r-c ul li p{
+		padding-left: 15px;
+	}
+
+	.view-more-nw-r-c{
+		margin-left: 15px;
+	}
+
+
+}
+
+/* about us page responsive section */
+
+@media (min-width: 320px) and (max-width: 640px){
+	
+	#about-lists-content{
+		height: 100%;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.about-l-c-wrapper{
+		width: 100%;
+	}
+
+	.about-list{
+		width: 100%;
+		float: none;
+		border-right: none;
+		border-left: none;
+	}
+
+	.about-l-content {
+    	width: 100%;
+    	float: none;
+    	margin-top: 20px;
+	}
+
+	.about-l-content h2{
+		font-size: 18px
+	}
+
+	#about-us-content-header{
+		margin-left: 15px;
+	}
+
+	.about-l-content h2{
+		border: none;
+	}
+
+}
+
+
+
+/* responsive for department page */
+
+@media (min-width: 320px) and (max-width: 640px){
+
+	#departments-lists-content{
+		height: 100%;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.departments-l-c-wrapper{
+		width: 100%;
+	}
+
+	.departments-list{
+		width: 100%;
+		float: none;
+		border-right: none;
+		border-left: none;
+	}
+
+	.departments-l-content {
+    	width: 100%;
+    	float: none;
+    	margin-top: 20px;
+	}
+
+	.departments-l-content h2{
+		font-size: 18px
+	}
+
+	#departments-content-header{
+		margin-left: 15px;
+	}
+
+	.departments-l-content h2{
+		border: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+/* responsive for students info page */
+
+@media (min-width: 320px) and (max-width: 640px){
+
+	#student-info-lists-content{
+		height: 100%;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.student-info-l-c-wrapper{
+		width: 100%;
+	}
+
+	.student-info-list{
+		width: 100%;
+		float: none;
+		border-right: none;
+		border-left: none;
+	}
+
+	.student-info-l-content {
+    	width: 100%;
+    	float: none;
+    	margin-top: 20px;
+	}
+
+	.student-info-l-content h2{
+		font-size: 18px
+	}
+
+	#student-info-content-header{
+		margin-left: 15px;
+	}
+
+	.student-info-l-content h2{
+		border: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+/* responsive for students info page */
+
+@media (min-width: 320px) and (max-width: 640px){
+
+	#academies-lists-content{
+		height: 100%;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.academies-l-c-wrapper{
+		width: 100%;
+	}
+
+	.academies-list{
+		width: 100%;
+		float: none;
+		border-right: none;
+		border-left: none;
+	}
+
+	.academies-l-content {
+    	width: 100%;
+    	float: none;
+    	margin-top: 20px;
+	}
+
+	.academies-l-content h2{
+		font-size: 18px
+	}
+
+	#academies-content-header{
+		margin-left: 15px;
+	}
+
+	.academies-l-content h2{
+		border: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+/* This responsive for digital content page */
+@media (min-width: 320px) and (max-width: 640px){
+
+	#digital-content{
+		width: 100%;
+		height: 70vh;
+	}
+
+	.digital-content-wrapper{
+		width: 100%;
+	}
+
+	.digital-l-content{
+		width: 100%;
+	}
+
+	.digital-l-content h2{
+		border: none;
+		font-size: 18px;
+	}
+
+	#digital-content-header{
+		margin-left: 20px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* job placement for students info page */
+
+@media (min-width: 320px) and (max-width: 640px){
+
+	#job-place-lists-content{
+		height: 100%;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	.job-place-l-c-wrapper{
+		width: 100%;
+	}
+
+	.job-place-list{
+		width: 100%;
+		float: none;
+		border-right: none;
+		border-left: none;
+	}
+
+	.job-place-l-content {
+    	width: 100%;
+    	float: none;
+    	margin-top: 20px;
+	}
+
+	.job-place-l-content h2{
+		font-size: 18px
+	}
+
+	#job-place-content-header{
+		margin-left: 15px;
+	}
+
+	.job-place-l-content h2{
+		border: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+/* This is contact us page's section */
+
+@media (min-width: 320px) and (max-width: 640px){
+
+	#contact-us-content{
+		width: 100%;
+		height: 100%;
+		margin-bottom: 40px;
+	}
+
+	.contact-us-content-wrapper{
+		width: 100%;
+	}
+
+	.contact-us-l-content{
+		border: none;
+	}
+
+	#map{
+		width: 100%;
+		height: 300px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+/* This is album page responsive section */
+
+
+
+@media (min-width: 320px) and (max-width: 640px){
+
+	
+	.gallary-wrapper{
+		width: 100%;
+	}	
+
+	.img{
+		text-align: center;
+	}
+
+	.img img{
+		margin-left: 0;
+	}
+
+
+}

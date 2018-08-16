@@ -1,0 +1,8 @@
+normal map:
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1150.2043961264185!2d90.39932953385292!3d23.7590950618061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b953796bfa89%3A0x92bc778a7255b8a4!2sDhaka+Polytechnic+Institute!5e0!3m2!1sbn!2sbd!4v1534172894022" width="1100" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+realisic map:
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d901.9131745677521!2d90.39981685237721!3d23.759010839475245!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b953796bfa89%3A0x92bc778a7255b8a4!2sDhaka+Polytechnic+Institute!5e1!3m2!1sbn!2sbd!4v1534173099971" width="1100" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
